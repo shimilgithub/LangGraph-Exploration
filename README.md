@@ -30,7 +30,7 @@ Examples start with simple steps and move on to more advanced features. They sho
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/shimilgithub/langraph-exploration.git](https://github.com/shimilgithub/langraph-exploration.git)
+git clone https://github.com/shimilgithub/langraph-exploration.git
 cd langraph-exploration
 ```
 2. **Create Virtual Environment:**
@@ -49,6 +49,7 @@ pip install -r requirements.txt
 ```
 
 3. **Configure Environment Variables:**
+
 Create an `.env` file in the root directory and add your API keys:
 
 ```bash
@@ -60,7 +61,6 @@ LANGCHAIN_PROJECT=<your_langraph_project>
 ```
 
 4. **Run the Notebooks:**
-Launch Jupyter to explore the implementations:
 
 ```bash
 jupyter notebook
