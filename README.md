@@ -48,7 +48,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-3. **Configure Environment Variables:**
+5. **Configure Environment Variables:**
 
 Create an `.env` file in the root directory and add your API keys:
 
@@ -60,7 +60,7 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT=<your_langraph_project>
 ```
 
-4. **Run the Notebooks:**
+6. **Run the Notebooks:**
 
 ```bash
 jupyter notebook
